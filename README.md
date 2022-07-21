@@ -1,5 +1,3 @@
 # axit
 
-#
-
-https://sergey-chernushevich.github.io/axit
+# https://sergey-chernushevich.github.io/axit
