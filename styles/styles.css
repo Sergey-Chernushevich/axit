@@ -518,6 +518,7 @@ input:focus::-webkit-input-placeholder {
   width: 370px;
   height: 470px;
   padding: 0 15px;
+  cursor: pointer;
 }
 
 .pricing-block:hover {
