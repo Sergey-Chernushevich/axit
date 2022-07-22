@@ -23,7 +23,7 @@
     padding: 70px;
   }
 
-  .tabs-btn {
+  .tab-btns {
     padding-right: 0;
   }
 
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .tabs-btn {
+  .tab-btns {
     width: 100%;
     flex-direction: row;
     justify-content: space-around;
@@ -155,12 +155,12 @@
     padding: 20px 0;
   }
 
-  .tabs-title {
+  .tab-title {
     text-align: center;
     margin-bottom: 40px;
   }
 
-  .tabs-info {
+  .tab-info {
     max-height: auto;
     text-align: justify;
     padding: 0 10px;
@@ -300,7 +300,7 @@
     padding: 0;
   }
 
-  .tabs-btn {
+  .tab-btns {
     width: 100%;
     flex-direction: row;
     justify-content: space-around;
@@ -313,12 +313,7 @@
     padding: 20px 0;
   }
 
-  .tabs-title {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-
-  .tabs-info {
+  .tab-info {
     max-height: auto;
     text-align: justify;
     padding: 0 10px;
@@ -456,7 +451,7 @@
     max-width: 576px;
     width: 100%;
   }
-  .tabs-btn .btn {
+  .tab-btns .btn {
     width: 90px;
     height: 90px;
     line-height: 90px;
@@ -486,7 +481,7 @@
   .tabs {
     padding: 20px;
   }
-  .tabs-btn {
+  .tab-btns {
     padding-bottom: 0;
   }
   .why {

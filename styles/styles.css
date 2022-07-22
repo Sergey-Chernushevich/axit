@@ -299,14 +299,14 @@ input:focus::-webkit-input-placeholder {
   display: flex;
 }
 
-.tabs-btn {
+.tab-btns {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-right: 50px;
 }
 
-.tabs-btn .btn {
+.tab-btns .btn {
   width: 110px;
   height: 110px;
   background-color: #333;
@@ -316,10 +316,15 @@ input:focus::-webkit-input-placeholder {
   font-weight: 700;
   color: #fff;
   border-radius: 5px;
+  cursor: pointer;
 }
 
-.tabs-btn .btn:hover {
+.tab-btns .btn:hover {
   background-color: #ec7979;
+}
+.tab-btns .btn.is-active {
+  background-color: #ec7979;
+  box-shadow: 0px 0px 30px 2px rgba(34, 60, 80, 0.2) inset;
 }
 
 .tabs-description {
@@ -329,22 +334,26 @@ input:focus::-webkit-input-placeholder {
   padding: 0 50px;
 }
 
-.tabs-title {
+.tab-title {
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 58px;
 }
 
-.tabs-info {
+.tab-info {
   max-height: 340px;
   overflow: auto;
   color: #86878b;
   text-transform: uppercase;
   line-height: 25px;
   text-align: justify;
+  display: none;
 }
 
+.tab-info.is-active {
+  display: block;
+}
 .tabs-description .tabs-button {
   color: #fff;
   border: 1px solid #ec7979;
